@@ -1,4 +1,6 @@
 @media (min-width: 992px) and (max-width: 1199px) {
+
+
     .menu_area .navbar-brand {
         font-size: 42px;
     }
@@ -6,16 +8,24 @@
         padding: 35px 7.5px;
     }
     .sing-up-button > a {
-        color: #fff;
         height: 40px;
         min-width: 152px;
         line-height: 36px;
         font-size: 14px;
     }
     .welcome-thumb {
-        width: 50%;
+        width: 40%;
+        height: 40%;
         bottom: -100px;
         right: 50px;
+    }
+
+    .app-download-area > a{
+        height: 40px;
+        min-width: 152px;
+        line-height: 36px;
+        font-size: 14px;
+        
     }
     .video-area {
         height: 550px;
@@ -106,11 +116,16 @@
     }
     .clients-feedback-area .slick-slide.slick-current img {
         width: 90px !important;
+       
         height: 90px !important;
     }
+
+    
 }
 
+
 @media (min-width: 320px) and (max-width: 767px) {
+  
     .header_area {
         padding: 0;
     }
@@ -172,10 +187,14 @@
         margin-right: 0;
     }
     .app-download-area {
-        display: block;
+        display: flex;
+        
+        font-size: .8em;
     }
     .app-download-btn {
         margin-bottom: 20px;
+        width: 50%;
+        font-size: .9em;
     }
     .video-area {
         border: 10px solid #fff;
@@ -228,14 +247,14 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
     .wellcome-heading > h3 {
-        font-size: 284px;
+        font-size: 20px;
     }
     .wellcome-heading > h2 {
-        font-size: 70px;
+        font-size: 30px;
     }
     .welcome-thumb {
         bottom: -109px;
-        width: 75%;
+        width: 50%;
     }
     .wellcome-heading {
         margin-bottom: 50px;
@@ -246,13 +265,20 @@
     .get-start-area .email {
         max-width: 370px;
     }
+
+    .app-download-area {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        
+        font-size: .8em;
+    }
+    
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .wellcome-heading > h3 {
-        font-size: 286px;
-    }
-    .get-start-area .email {
-        margin-bottom: 0;
-    }
+
+@media (max-width: 992px) {
+   
 }
