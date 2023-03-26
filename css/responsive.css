@@ -196,6 +196,7 @@
         width: 50%;
         font-size: .9em;
     }
+    
     .video-area {
         border: 10px solid #fff;
         border-radius: 20px;
@@ -244,7 +245,12 @@
         margin-bottom: 0;
     }
 }
-
+@media (max-width: 560px) {
+    .btn-hero{
+        visibility: hidden;
+    }
+   
+}
 @media (min-width: 480px) and (max-width: 767px) {
     .wellcome-heading > h3 {
         font-size: 20px;
@@ -276,9 +282,7 @@
         font-size: .8em;
     }
     
+    
 }
 
 
-@media (max-width: 992px) {
-   
-}
