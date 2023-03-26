@@ -14,10 +14,10 @@
         font-size: 14px;
     }
     .welcome-thumb {
-        width: 40%;
-        height: 40%;
+        width: 200%;
+        /* height: 40%; */
         bottom: -100px;
-        right: 50px;
+        right: -50px;
     }
 
     .app-download-area > a{
@@ -63,7 +63,7 @@
         text-align: left;
     }
     .welcome-thumb {
-        width: 50%;
+        width: 80%;
         bottom: -100px;
         right: 0;
     }
@@ -163,9 +163,9 @@
         max-width: 100%;
     }
     .welcome-thumb {
-        width: 90%;
-        bottom: -74px;
-        right: 0;
+        width: 120%;
+        bottom: 54px;
+        right: -50px;
     }
     .logo_area > a > h2 {
         font-size: 40px;
@@ -260,7 +260,7 @@
     }
     .welcome-thumb {
         bottom: -109px;
-        width: 50%;
+        width: 90%;
     }
     .wellcome-heading {
         margin-bottom: 50px;
